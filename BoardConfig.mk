@@ -34,7 +34,7 @@ BOARD_USES_UBOOT := false
 # boot.img creation
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_FOLDER)/boot.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_ovation_green_defconfig
+TARGET_KERNEL_CONFIG := mokee_ovation_green_defconfig
 TARGET_KERNEL_SOURCE := kernel/bn/omap
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
