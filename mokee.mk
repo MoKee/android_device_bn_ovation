@@ -17,17 +17,17 @@
 TARGET_SCREEN_WIDTH := 1920
 TARGET_SCREEN_HEIGHT := 1280
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for ovation
 $(call inherit-product, device/bn/ovation/full_ovation.mk)
-$(call inherit-product, device/bn/common/cm.mk)
+$(call inherit-product, device/bn/common/mokee.mk)
 
 # Device overlay
-DEVICE_PACKAGE_OVERLAYS += device/bn/ovation/overlay/cm
+DEVICE_PACKAGE_OVERLAYS += device/bn/ovation/overlay
 
-PRODUCT_NAME := cm_ovation
+PRODUCT_NAME := mk_ovation
 PRODUCT_DEVICE := ovation
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := BN NookHD+

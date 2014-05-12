@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "android_vendor_bn_hd-common",
+    "target_path": "vendor/bn/hd-common"
+  },
+  {
+    "repository": "android_vendor_bn_omap4470-common",
+    "target_path": "vendor/bn/omap4470-common"
+  },
+  {
+    "repository": "android_device_bn_common",
+    "target_path": "device/bn/common"
+  },
+  {
+    "repository": "android_kernel_bn_omap",
+    "target_path": "kernel/bn/omap"
+  }
+]
+
+

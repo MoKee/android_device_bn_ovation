@@ -26,7 +26,7 @@ TARGET_BOOTLOADER_BOARD_NAME := ovation
 $(call inherit-product, device/bn/common/common.mk)
 
 # Device overlay
-DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay/aosp
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 
 PRODUCT_COPY_FILES += \
 	$(DEVICE_FOLDER)/root/fstab.ovation:root/fstab.ovation \
